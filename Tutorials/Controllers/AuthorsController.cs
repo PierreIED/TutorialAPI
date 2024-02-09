@@ -12,6 +12,7 @@ namespace Tutorials.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class AuthorsController : ControllerBase
     {
         private readonly TutorialsContext _context;
